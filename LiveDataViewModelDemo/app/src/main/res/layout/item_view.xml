@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/img_avata"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/img_food_zero"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/style_TextView_Output"
+            android:text="Ren Hakuryuu"/>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/style_TextView_Output"
+            android:textSize="14sp"
+            android:text="King of Kou"/>
+    </LinearLayout>
+</LinearLayout>
